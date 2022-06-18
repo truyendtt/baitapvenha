@@ -1,7 +1,6 @@
 package day1;
 
 public class Convert {
-
 	public static void convert(float f) {
 		Float c;
 		c= (f-32)*5/9;
