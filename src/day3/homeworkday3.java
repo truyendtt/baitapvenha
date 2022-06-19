@@ -1,11 +1,12 @@
 package day3;
 
-import java.sql.Date;
+//import java.sql.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Date;
 
 public class homeworkday3 {
 	public static void print() {
@@ -25,11 +26,11 @@ public class homeworkday3 {
         System.out.println("Hour: " + cal.get(Calendar.HOUR));
         System.out.println("Minute: " + cal.get(Calendar.MINUTE));
 	}
-	public static void main(String[] args) throws ParseException {
+	public static void maindate(String day1, String day2) throws ParseException {
 		
-        SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy");
-        Date date1 = (Date) sdf.parse("2020-07-20");  
-        Date date2 = (Date) sdf.parse("2020-06-18");  
+        SimpleDateFormat sdf= new SimpleDateFormat("dd-MM-yyyy");
+        Date date1 =  sdf.parse(day1);  
+        Date date2 =  sdf.parse(day2);  
         
         System.out.println("Date 1: " + sdf.format(date1));  
         System.out.println("Date 2: " + sdf.format(date2));  
