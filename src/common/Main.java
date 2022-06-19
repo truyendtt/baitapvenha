@@ -101,7 +101,7 @@ public class Main {
 		DataTypesandVariables.printString("--------- Day 3: BAI 2  ---------- \n");
 		homeworkday3.printcalendar();
 		DataTypesandVariables.printString("--------- Day 3: BAI 3  ---------- \n");
-		
+		homeworkday3.maindate("19-02-2022", "15-04-2021");
 		DataTypesandVariables.printString("--------- Day 3: BAI 4  ---------- \n");
 		homeworkday3.showcalendar();
 		
